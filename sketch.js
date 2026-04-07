@@ -8,11 +8,10 @@ let rows = [];
 
 function setup() {
     createCanvas(CANVAS_WIDTH, CANVAS_HEIGHT);
+    background("green");
 }
 
 function draw() {
-    background("green");
-
     rows.forEach(row => {
         drawRow(row)
     })
